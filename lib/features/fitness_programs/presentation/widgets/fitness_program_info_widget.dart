@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-import 'package:gym_test_project/fitness_programs/domain/entities/fitness_program_entity.dart';
+import 'package:gym_test_project/features/fitness_programs/domain/entities/fitness_program_entity.dart';
 
 class FitnessProgramInfo extends StatelessWidget {
   final FitnessProgramEntity fitnessProgram;

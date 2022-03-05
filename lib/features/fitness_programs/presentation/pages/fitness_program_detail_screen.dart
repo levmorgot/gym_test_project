@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:gym_test_project/common/styles/gradient.dart';
-import 'package:gym_test_project/fitness_programs/domain/entities/fitness_program_entity.dart';
-import 'package:gym_test_project/fitness_programs/presentation/widgets/fitness_program_info_widget.dart';
+import 'package:gym_test_project/features/fitness_programs/domain/entities/fitness_program_entity.dart';
+import 'package:gym_test_project/features/fitness_programs/presentation/widgets/fitness_program_info_widget.dart';
 
 class FitnessProgramDetailPage extends StatelessWidget {
   final FitnessProgramEntity fitnessProgram;

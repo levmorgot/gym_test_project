@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:gym_test_project/common/styles/app_colors.dart';
-import 'package:gym_test_project/fitness_programs/domain/entities/fitness_program_entity.dart';
-import 'package:gym_test_project/fitness_programs/presentation/pages/fitness_program_detail_screen.dart';
-import 'package:gym_test_project/fitness_programs/presentation/widgets/fitness_program_cache_image_widget.dart';
+import 'package:gym_test_project/features/fitness_programs/domain/entities/fitness_program_entity.dart';
+import 'package:gym_test_project/features/fitness_programs/presentation/pages/fitness_program_detail_screen.dart';
+import 'package:gym_test_project/features/fitness_programs/presentation/widgets/fitness_program_cache_image_widget.dart';
 
 class FitnessProgramCard extends StatelessWidget {
   final FitnessProgramEntity fitnessProgram;

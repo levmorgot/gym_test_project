@@ -3,10 +3,10 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:gym_test_project/common/widgets/empty_message_widget.dart';
 import 'package:gym_test_project/common/widgets/error_message_widget.dart';
 import 'package:gym_test_project/common/widgets/loading_indicator_widget.dart';
-import 'package:gym_test_project/fitness_programs/domain/entities/fitness_program_entity.dart';
-import 'package:gym_test_project/fitness_programs/presentation/bloc/fitness_programs_list_cubit/fitness_programs_list_cubit.dart';
-import 'package:gym_test_project/fitness_programs/presentation/bloc/fitness_programs_list_cubit/fitness_programs_list_state.dart';
-import 'package:gym_test_project/fitness_programs/presentation/widgets/fitness_programs_card_widget.dart';
+import 'package:gym_test_project/features/fitness_programs/domain/entities/fitness_program_entity.dart';
+import 'package:gym_test_project/features/fitness_programs/presentation/bloc/fitness_programs_list_cubit/fitness_programs_list_cubit.dart';
+import 'package:gym_test_project/features/fitness_programs/presentation/bloc/fitness_programs_list_cubit/fitness_programs_list_state.dart';
+import 'package:gym_test_project/features/fitness_programs/presentation/widgets/fitness_programs_card_widget.dart';
 
 class FitnessProgramsList extends StatelessWidget {
   const FitnessProgramsList({Key? key}) : super(key: key);

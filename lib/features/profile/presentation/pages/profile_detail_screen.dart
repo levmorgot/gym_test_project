@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gym_test_project/common/styles/gradient.dart';
-import 'package:gym_test_project/profile/presentation/widgets/profile_info_widget.dart';
+import 'package:gym_test_project/features/profile/presentation/widgets/profile_info_widget.dart';
 
 class ProfileDetailPage extends StatelessWidget {
 

@@ -1,11 +1,11 @@
 import 'package:dartz/dartz.dart';
 import 'package:gym_test_project/core/error/exception.dart';
 import 'package:gym_test_project/core/error/failure.dart';
-import 'package:gym_test_project/fitness_programs/data/datasources/fitness_program_local_data_sources.dart';
-import 'package:gym_test_project/fitness_programs/data/datasources/fitness_program_remote_data_sources.dart';
-import 'package:gym_test_project/fitness_programs/data/models/fitness_program_model.dart';
-import 'package:gym_test_project/fitness_programs/domain/entities/fitness_program_entity.dart';
-import 'package:gym_test_project/fitness_programs/domain/repositories/fitness_program_repository.dart';
+import 'package:gym_test_project/features/fitness_programs/data/datasources/fitness_program_local_data_sources.dart';
+import 'package:gym_test_project/features/fitness_programs/data/datasources/fitness_program_remote_data_sources.dart';
+import 'package:gym_test_project/features/fitness_programs/data/models/fitness_program_model.dart';
+import 'package:gym_test_project/features/fitness_programs/domain/entities/fitness_program_entity.dart';
+import 'package:gym_test_project/features/fitness_programs/domain/repositories/fitness_program_repository.dart';
 
 class FitnessProgramRepository implements IFitnessProgramRepository {
   final IFitnessProgramRemoteDataSource remoteDataSource;

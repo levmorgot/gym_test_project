@@ -1,10 +1,10 @@
 import 'package:get_it/get_it.dart';
-import 'package:gym_test_project/fitness_programs/data/datasources/fitness_program_local_data_sources.dart';
-import 'package:gym_test_project/fitness_programs/data/datasources/fitness_program_remote_data_sources.dart';
-import 'package:gym_test_project/fitness_programs/data/repositories/fitness_program_repository.dart';
-import 'package:gym_test_project/fitness_programs/domain/repositories/fitness_program_repository.dart';
-import 'package:gym_test_project/fitness_programs/domain/usecases/get_all_fitness_programs.dart';
-import 'package:gym_test_project/fitness_programs/presentation/bloc/fitness_programs_list_cubit/fitness_programs_list_cubit.dart';
+import 'package:gym_test_project/features/fitness_programs/data/datasources/fitness_program_local_data_sources.dart';
+import 'package:gym_test_project/features/fitness_programs/data/datasources/fitness_program_remote_data_sources.dart';
+import 'package:gym_test_project/features/fitness_programs/data/repositories/fitness_program_repository.dart';
+import 'package:gym_test_project/features/fitness_programs/domain/repositories/fitness_program_repository.dart';
+import 'package:gym_test_project/features/fitness_programs/domain/usecases/get_all_fitness_programs.dart';
+import 'package:gym_test_project/features/fitness_programs/presentation/bloc/fitness_programs_list_cubit/fitness_programs_list_cubit.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 

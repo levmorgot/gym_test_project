@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:gym_test_project/fitness_programs/domain/entities/fitness_program_entity.dart';
+import 'package:gym_test_project/features/fitness_programs/domain/entities/fitness_program_entity.dart';
 
 abstract class FitnessProgramState extends Equatable {
   const FitnessProgramState();

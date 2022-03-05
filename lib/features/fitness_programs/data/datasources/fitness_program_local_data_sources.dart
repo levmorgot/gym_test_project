@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:gym_test_project/core/error/exception.dart';
-import 'package:gym_test_project/fitness_programs/data/models/fitness_program_model.dart';
+import 'package:gym_test_project/features/fitness_programs/data/models/fitness_program_model.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 abstract class IFitnessProgramLocalDataSource {

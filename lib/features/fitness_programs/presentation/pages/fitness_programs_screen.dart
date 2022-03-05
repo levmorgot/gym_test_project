@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:gym_test_project/common/styles/gradient.dart';
-import 'package:gym_test_project/fitness_programs/presentation/bloc/fitness_programs_list_cubit/fitness_programs_list_cubit.dart';
-import 'package:gym_test_project/fitness_programs/presentation/widgets/fitness_programs_list_widget.dart';
-import 'package:gym_test_project/profile/presentation/pages/profile_detail_screen.dart';
+import 'package:gym_test_project/features/fitness_programs/presentation/bloc/fitness_programs_list_cubit/fitness_programs_list_cubit.dart';
+import 'package:gym_test_project/features/fitness_programs/presentation/widgets/fitness_programs_list_widget.dart';
+import 'package:gym_test_project/features/profile/presentation/pages/profile_detail_screen.dart';
 
 class FitnessProgramsPage extends StatelessWidget {
   const FitnessProgramsPage({Key? key}) : super(key: key);

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:gym_test_project/fitness_programs/presentation/bloc/fitness_programs_list_cubit/fitness_programs_list_cubit.dart';
-import 'package:gym_test_project/fitness_programs/presentation/pages/fitness_programs_screen.dart';
+import 'package:gym_test_project/features/fitness_programs/presentation/bloc/fitness_programs_list_cubit/fitness_programs_list_cubit.dart';
+import 'package:gym_test_project/features/fitness_programs/presentation/pages/fitness_programs_screen.dart';
 import 'package:gym_test_project/locator_service.dart' as di;
 import 'package:gym_test_project/locator_service.dart';
 

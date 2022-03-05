@@ -1,4 +1,4 @@
-import 'package:gym_test_project/fitness_programs/domain/entities/fitness_program_entity.dart';
+import 'package:gym_test_project/features/fitness_programs/domain/entities/fitness_program_entity.dart';
 
 class FitnessProgramModel extends FitnessProgramEntity {
   const FitnessProgramModel({
