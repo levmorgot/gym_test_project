@@ -58,7 +58,7 @@ class FitnessProgramsList extends StatelessWidget {
             );
           } else {
             return const EmptyMessage(
-              message: "Список транзакций пуст!",
+              message: "Список программ пуст!",
             );
           }
         });
